@@ -60,6 +60,26 @@ Anyone can view, examine, alter, and improve React's source code to suit their o
 Download and install your preferred Node version on your computer. Confirm installation by typing node -v in the command prompt, which should display the current version.
 
 <h3>Step 2: Verify NodeJS Installation</h3>
-Open the command prompt to check whether it is completely installed or not type the command –> node -v
+- Open the command prompt to check whether it is completely installed or not type the command –> [node -v]. If the installation went well it will give you the version you have installed  
+
+<h3> Install the CRA ackage</h3>
+- Now in the terminal run the below command to install create-react-app: [npm install -g create-react-app]   It will globally install react app for you. To check everything  went well run the command [create-react-app --version] If everything went well it will give you the installed version of react app
+
+<h3>Step 4: Create Directory for React Projects</h3>
+
+- Now Create a new folder where you want to make your react app using the below command: [mkdir newfolder] **Note**: The newfolder in the above command is the name of the folder and can be anything.
+
+- Move inside the same folder using the below command: [cd newfolder (your folder name)]
+
+<h3>Step 5: Create the React App using CRA Command</h3>
+- Now inside the folder run the command –> [npx create-react-app reactfirst] It will take some time to install the required dependencies
+
+- **NOTE**: Due to npm naming restrictions, names can no longer contain capital letters, thus type your app’s name in lowercase.
+
+<h3>Step 6: Open the Project in Code editor</h3>
+- Now open the IDE of your choice for eg.  Visual studio code and open the folder where you have installed the react app newfolder (in the above example)  inside the folder you will see your app’s name reactapp (In our example). Use the terminal and move inside your app name folder.Use command  cd reactapp (your app name)
+
+<h3>Step 7: Run the React App</h3>
+- To start your app run the below command : [npm start] Once you run the above command a new tab will open in your browser showing React logo.
 
 
