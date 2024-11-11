@@ -55,5 +55,11 @@ Anyone can view, examine, alter, and improve React's source code to suit their o
 
 <h3>Step: 1 Install Node.js</h3>
 
-- You must have Node.js installed on your computer before you can install React. A JavaScript runtime environment called Node.js enables server-side JavaScript execution. The most recent stable version, which incorporates security upgrades, bug fixes, and compliance with project dependencies, is the one that is advised. To download the suggested or most recent version, go to the Node.js website.
+- You must have Node.js installed on your computer before you can install React. A JavaScript runtime environment called Node.js enables server-side JavaScript execution. The most recent stable version, which incorporates security upgrades, bug fixes, and compliance with project dependencies, is the one that is advised. To download the suggested or most recent version, go to the Node.js website. 
+
+Download and install your preferred Node version on your computer. Confirm installation by typing node -v in the command prompt, which should display the current version.
+
+<h3>Step 2: Verify NodeJS Installation</h3>
+Open the command prompt to check whether it is completely installed or not type the command –> node -v
+
 
