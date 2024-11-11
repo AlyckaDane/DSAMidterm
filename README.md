@@ -7,10 +7,18 @@ With frameworks like Next.js, React may be used to create server-rendered, mobil
 # <h3>Notable Features</h3>
 React follows the declarative programming approach. React updates and displays components in response to data changes, and developers create views for every state of an application. On the other hand, imperative programming is different.
 
-# <h4>Declarative</h4>
-React code consists of modular and reusable components. React applications often include multiple levels of components. The components are rendered to a root element in the DOM via the React DOM framework. When rendering a component, values are exchanged across components using props (short for "properties"). A component's internal values are referred to as its state [15].
+<h4>Declarative</h4>
+React follows the declarative programming approach, with developers creating views for each application state and React updating and rendering components as data changes This contrasts with imperative programming.
 
-The two primary ways of declaring components in React are through function components and class components
+<h4>Components</h4>
+React code consists of modular and reusable components. React applications often include multiple levels of components. The components are rendered to a root element in the DOM via the React DOM framework. When rendering a component, values are exchanged across components using props (short for "properties"). A component's internal values are referred to as its state.
 
-# <h4>Function Components</h4>
+React has two major ways of declaring components: function components and class components.
+
+<h4>Function Components</h4>
 Function components are defined as functions (using JavaScript function syntax or an arrow function expression) that take a single "props" parameter and return JSX. From React v16.8, function components can use state using the useState Hook.
+
+<h4>React Hooks</h4>
+On February 16, 2019, React 16.8 was released to the public, introducing React Hooks. Hooks are functions that let developers "hook into" React state and lifecycle features from function components. Hooks do not work inside classes — they allow developers to use more React features without classes.
+
+React provides several built-in hooks such as [useState]
