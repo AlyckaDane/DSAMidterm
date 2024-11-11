@@ -62,7 +62,7 @@ Download and install your preferred Node version on your computer. Confirm insta
 <h3>Step 2: Verify NodeJS Installation</h3>
 - Open the command prompt to check whether it is completely installed or not type the command –> [node -v]. If the installation went well it will give you the version you have installed  
 
-<h4> Install the CRA ackage</h4>
+<h3> Step 3: Install the CRA ackage</h3>
 - Now in the terminal run the below command to install create-react-app: [npm install -g create-react-app]   It will globally install react app for you. To check everything  went well run the command [create-react-app --version] If everything went well it will give you the installed version of react app
 
 <h3>Step 4: Create Directory for React Projects</h3>
@@ -80,6 +80,6 @@ Download and install your preferred Node version on your computer. Confirm insta
 - Now open the IDE of your choice for eg.  Visual studio code and open the folder where you have installed the react app newfolder (in the above example)  inside the folder you will see your app’s name reactapp (In our example). Use the terminal and move inside your app name folder.Use command  cd reactapp (your app name)
 
 <h3>Step 7: Run the React App</h3>
-- To start your app run the below command : [npm start] Once you run the above command a new tab will open in your browser showing React logo.
+- To start your app run the below command : [npm start] Once you run the above command a new tab will open in your browser showing React logo
 
 
