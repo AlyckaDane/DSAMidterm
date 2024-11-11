@@ -62,7 +62,7 @@ Download and install your preferred Node version on your computer. Confirm insta
 <h3>Step 2: Verify NodeJS Installation</h3>
 - Open the command prompt to check whether it is completely installed or not type the command –> [node -v]. If the installation went well it will give you the version you have installed  
 
-<h3> Install the CRA ackage</h3>
+<h4> Install the CRA ackage</h4>
 - Now in the terminal run the below command to install create-react-app: [npm install -g create-react-app]   It will globally install react app for you. To check everything  went well run the command [create-react-app --version] If everything went well it will give you the installed version of react app
 
 <h3>Step 4: Create Directory for React Projects</h3>
