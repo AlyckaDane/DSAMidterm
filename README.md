@@ -33,3 +33,27 @@ The distinctive code patterns that hooks rely on are described by the following 
 2. To ensure that stateful logic remains with the component, "Only call hooks from React functions" should be used instead of using hooks from standard JavaScript methods.
 
 Code analysis tools like linters can be set up to identify several errors during development, even though these guidelines cannot be enforced at runtime. Both using Hooks and implementing bespoke Hooks that may call other Hooks are subject to the regulations.
+
+
+# <h2>Setting up a React.js</h2>
+### Prerequisite Apps
+
+Before installing React JS, you need to have the following software installed on your system:
+
+- **Node.js**: React relies on Node.js for package management (NPM/Yarn). You can download it from [Node.js official website](https://nodejs.org/).
+
+- **Code Editor**: A good code editor like [Visual Studio Code](https://code.visualstudio.com/) is recommended for React development.
+
+# <h2>Why is it Useful?</h2>
+
+An open-source JavaScript package called React facilitates the creation of dynamic user interfaces (UIs). It can be used to create components that stand in for logically reusable UI elements.
+
+Anyone can view, examine, alter, and improve React's source code to suit their own demands or app development specifications because it is open source.
+
+
+# <h2>How to Install React - A Step-by-step Guide</h2>
+
+<h3>Step: 1 Install Node.js</h3>
+
+- You must have Node.js installed on your computer before you can install React. A JavaScript runtime environment called Node.js enables server-side JavaScript execution. The most recent stable version, which incorporates security upgrades, bug fixes, and compliance with project dependencies, is the one that is advised. To download the suggested or most recent version, go to the Node.js website.
+
