@@ -21,6 +21,15 @@ Function components are defined as functions (using JavaScript function syntax o
 <h4>React Hooks</h4>
 On February 16, 2019, React 16.8 was released to the public, introducing React Hooks. Hooks are functions that let developers "hook into" React state and lifecycle features from function components. Hooks do not work inside classes — they allow developers to use more React features without classes.
 
-<br>
 
-React provides several built-in hooks such as [useState]
+React provides several built-in hooks such as [useState], [useContext],  [useReducer], [useMemo] and [useEffect]. Others are documented in the Hooks API Reference.  [useState] and [useEffect], which are the most commonly used, are for controlling state and side effects, respectively.
+
+<h5>Rules of hooks</h5>
+
+The distinctive code patterns that hooks rely on are described by the following two hook rules:
+
+1. To ensure that the hooks are called in the same sequence every time, "Only call hooks at the top level" means that you should not call hooks from inside loops, conditions, or nested expressions.
+
+2. To ensure that stateful logic remains with the component, "Only call hooks from React functions" should be used instead of using hooks from standard JavaScript methods.
+
+Code analysis tools like linters can be set up to identify several errors during development, even though these guidelines cannot be enforced at runtime. Both using Hooks and implementing bespoke Hooks that may call other Hooks are subject to the regulations.
